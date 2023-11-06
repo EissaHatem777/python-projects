@@ -7,6 +7,6 @@ def age_group(age):
     return "Senior"
   else:
     return "Invalid"
-age=input(int("Enter your age: "))
+age=int(input("Enter your age: "))
 age_group=age_group(age)
 print(f"You are {age_group}")  
